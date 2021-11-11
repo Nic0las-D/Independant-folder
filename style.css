@@ -20,7 +20,7 @@ h2 {
   line-height: 2;
 }
 
-logos {
+.logos {
   color: #db5f5f;
   text-decoration: none;
   width: 50px;
@@ -31,19 +31,16 @@ h2:hover {
   text-decoration: underline;
 }
 
-.container-white {
-  padding: 30px;
-  border-radius: 20px;
+.container {
   width: 700px;
   margin: 40px auto;
 }
 
-.card {
+.card-white {
   background-color: white;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  width: 600px;
   margin: 20 auto;
   text-align: center;
 }
@@ -61,6 +58,7 @@ h2:hover {
 
 .list-inline {
   list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 960px) {
